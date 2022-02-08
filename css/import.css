@@ -1,0 +1,12 @@
+@import url("https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css");
+/* reset.css */
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Nanum+Gothic:wght@400;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300&display=swap');
+/* google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Material+Icons");
+/* google material icons */
+@import url("https://unpkg.com/swiper@7/swiper-bundle.min.css");
+/* swiper cdn */
+
+
+@import url('./global.css');
+@import url('./pages.css');
