@@ -337,5 +337,120 @@
     {
         width: 200px;
     }
+    section:nth-of-type(5)
+    {
+        background-image: url('../images/season_product_bg.jpg');
+    }
+    section:nth-of-type(5) .inner
+    {
+        height: 400px;
+    }
+    section:nth-of-type(5) .inner > div
+    {
+        position: absolute;
+        top: 50%;
+        right: 0;
+        transform: translateY(-50%);
+    }
+    section:nth-of-type(5) .inner > div img:first-of-type
+    {
+        margin-bottom: 10px;
+    }
+    section:nth-of-type(5) .inner > div img:last-of-type
+    {
+        margin-bottom: 15px;
+    }
+    section:nth-of-type(6)
+    {
+        background-image: url("../images/reserve_bg.jpg");
+    }
+    section:nth-of-type(6) .inner
+    {
+        height: 400px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    section:nth-of-type(6) .inner > div
+    {
+        margin-left: 50px;
+    }
+    section:nth-of-type(7)
+    {
+        background-image: url('../images/favorite_bg.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+        background-size: cover;
+        /* 페럴렉스 */
+    }
+    section:nth-of-type(7) .inner
+    {
+        padding: 110px 0;
+    }
+    section:nth-of-type(7) .inner > div
+    {
+        display: flex;
+        flex-wrap: wrap;
+        width: 362px;
+        justify-content: flex-end;
 
+    }
+    section:nth-of-type(7) .inner > div img[alt="title1"]
+    {
+        margin-bottom: 40px;
+    }
+    section:nth-of-type(7) .inner > div img[alt="title2"]
+    {
+        margin-bottom: 40px;
+    }
+    section:nth-of-type(8)
+    {
+        background-image: url('../images/reserve_store_bg.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+    section:nth-of-type(8) .inner
+    {
+        height: 500px;
+    }
+    section:nth-of-type(8) .inner div
+    {
+        position: absolute;
+        width: 334px;
+        height: 334px;
+        perspective: 600px;
+        backface-visibility: hidden;
+        transition: transform 1s ease;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+    section:nth-of-type(8) .inner div:last-of-type a
+    {
+        position: absolute;
+        bottom: 10%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    section:nth-of-type(8) .inner div:first-of-type
+    {
+        transform: rotateY(0deg);
+    }
+    section:nth-of-type(8) .inner:hover div:first-of-type
+    {
+        transform: rotateY(180deg);
+    }
+    section:nth-of-type(8) .inner div:last-of-type
+    {
+        transform: rotateY(-180deg);
+    }
+    section:nth-of-type(8) .inner:hover div:last-of-type
+    {
+        transform: rotateY(0deg);
+    }
 }

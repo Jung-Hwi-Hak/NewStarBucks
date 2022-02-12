@@ -79,6 +79,16 @@ header .inner > nav > ul > li ol > li > div > ul li a
   color: #333;
   background-color: #fff;
 }
+.btn.btn--gold
+{
+  color: #c49c48;
+  border-color: #c49c48;
+}
+.btn.btn--gold:hover
+{
+  color: #fff;
+  background-color: #c49c48;
+}
 @media screen and (min-width: 1170px)
 {
   /*! HEADER */
